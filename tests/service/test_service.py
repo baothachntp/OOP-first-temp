@@ -8,8 +8,8 @@ import pytest
 
 from recsys.config import ModelConfig, SystemConfig
 from recsys.service.cli import RecSysCLI
-from recsys.service.model_factory import ModelFactory
 from recsys.service.recommendation_service import RecommendationService
+from recsys.service.model_factory import ModelFactory
 
 
 @dataclass(frozen=True)
